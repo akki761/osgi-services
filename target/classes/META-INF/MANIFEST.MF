@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1522169108873
+Build-Jdk: 1.8.0_151
+Built-By: aakash
+Bundle-Description: com.akash.boot.htl - com.boot.htl
+Bundle-ManifestVersion: 2
+Bundle-Name: com.boot.htl
+Bundle-SymbolicName: com.sling.com.sling.bndle.com.sling.bundle
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.sling.com.sling.bundle;uses:="javax.script,org.apach
+ e.sling.scripting.sightly.pojo,org.osgi.service.component";version="0.0
+ .1"
+Import-Package: javax.script,org.apache.sling.api;version="[2.3,3)",org.
+ apache.sling.api.scripting;version="[2.3,3)",org.apache.sling.scripting
+ .sightly.pojo;version="[1.0,2)",org.osgi.framework;version="[1.5,2)",or
+ g.osgi.service.component;version="[1.1,2)",org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="com.sling.com
+ .sling.bundle.ClassService",osgi.service;objectClass:List<String>="com.
+ sling.com.sling.bundle.StudentService",osgi.service;objectClass:List<St
+ ring>="java.lang.Runnable"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.3.0)(!(version>=2.0.0)))",osgi.service;filter:="(objectC
+ lass=com.sling.com.sling.bundle.ClassService)";effective:=active,osgi.s
+ ervice;filter:="(objectClass=com.sling.com.sling.bundle.MyConfiguration
+ )";effective:=active,osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.sling.com.sling.bundle.ClassConfiguratio
+ nService.xml,OSGI-INF/com.sling.com.sling.bundle.SimpleDSComponent.xml,
+ OSGI-INF/com.sling.com.sling.bundle.StudentClassService.xml
+Tool: Bnd-3.2.0.201605172007

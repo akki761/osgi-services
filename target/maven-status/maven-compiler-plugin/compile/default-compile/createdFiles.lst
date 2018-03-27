@@ -1,0 +1,11 @@
+com/sling/com/sling/bundle/MyConfiguration.class
+com/sling/com/sling/bundle/ClassConfigurationService.class
+com/sling/com/sling/bundle/UseImpl.class
+com/sling/com/sling/bundle/StudentService.class
+com/sling/com/sling/bundle/SimpleDSComponent.class
+com/sling/com/sling/bundle/StudentClassService.class
+com/sling/com/sling/bundle/DeleteStudent.class
+com/sling/com/sling/bundle/AddStudent.class
+com/sling/com/sling/bundle/ClassService.class
+com/sling/com/sling/bundle/StudentStatus.class
+com/sling/com/sling/bundle/Student.class
